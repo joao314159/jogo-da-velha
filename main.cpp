@@ -596,7 +596,7 @@ public:
     }
 
     int menor(vector<int> numbers){
-      int menor = 0;
+      int menor = 1;
       for(int i = 0;i <numbers.size(); i++){
         if( numbers[i] < menor){
           menor = numbers[i];
@@ -727,7 +727,7 @@ public:
 
       vector<Action> actions = this->generate_actions(estado);
 
-      cout<<"teste "<< actions[0].jogador<<endl;
+      //cout<<"teste "<< actions[0].jogador<<endl;
 
       int melhor = 0;
 
